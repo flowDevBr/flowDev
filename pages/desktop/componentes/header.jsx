@@ -6,11 +6,13 @@ class Header extends Component {
     render() {
         return (
             <div className="container-header" >
+                <div className='container-header-small'>
                 <span className="container-header-titulo">
                     <Logo />
                     FlowDev
                     </span>
                 <ButtonContato />
+                </div>
             </div>
         );
     }

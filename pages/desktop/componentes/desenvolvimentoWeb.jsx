@@ -6,7 +6,7 @@ class desenvolvimentoWeb extends Component {
         return (
             <div>
                 <div style={{ marginTop: 30, marginBottom: 30 }} className="col">
-                    <div className="row">
+                    <div className="row" style={{width: 800, justifyContent: 'space-between'}}>
                         <ImageWeb />
                         <div style={{ marginLeft: 60, marginTop: 30 }} className="col">
                             <span className="container-paginas-titulo">Desenvolvimento Web</span>

@@ -5,8 +5,8 @@ class desenvolvimentoApp extends Component {
     render() {
         return (
             <div>
-                <div style={{ marginTop: 30, marginBottom: 30 }} className="col">
-                    <div className="row">
+                <div style={{ marginTop: 30, marginBottom: 30, }} className="col">
+                    <div className="row" style={{width: 800, justifyContent: 'space-between'}}>
                         <div style={{ marginRight: 60, marginTop: 30, textAlign: "right" }} className="col">
                             <span className="container-paginas-titulo">Desenvolvimento de Apps</span>
                             <span className="container-paginas-texto">

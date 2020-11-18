@@ -1,6 +1,30 @@
+@font-face {
+	font-family: 'poppins';
+	src: url('../pages/assets/fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'poppins';
+	src: url('../pages/assets/fonts/Poppins-Medium.ttf');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'poppins';
+	src: url('../pages/assets/fonts/Poppins-SemiBold.ttf');
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'poppins';
+	src: url('../pages/assets/fonts/Poppins-Bold.ttf');
+	font-weight: 700;
+}
+
 body {
 	margin: 0px;
 	background-color: #0b1023;
+	font-family: 'poppins';
 }
 
 .row {
@@ -22,10 +46,21 @@ body {
 .container-header {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: #0b1023;
+	width: 100%;
+	height: 90px;
+	border-bottom: 2px solid #161d3c;
+}
+
+.container-header-small {
+	display: flex;
+	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 	background-color: #0b1023;
-	width: 100vw;
+	width: 1200px;
 	height: 90px;
 	border-bottom: 2px solid #161d3c;
 }
@@ -35,7 +70,13 @@ body {
 	flex-direction: row;
 	align-items: center;
 	color: white;
+	font-size: 23px;
+	font-weight: 600;
 	text-align: center;
+}
+
+.pointer {
+	cursor: pointer;
 }
 
 .container-header-botao-contato {
@@ -45,6 +86,7 @@ body {
 	width: 82px;
 	height: 42px;
 	text-align: center;
+	font-weight: 500;
 	border-radius: 7px;
 	margin: 10px;
 }
@@ -57,6 +99,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	height: 88vh;
 }
 
 .container-paginainicial-titulo {
@@ -89,7 +132,7 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	background-color: #0b1023;
-	width: 100vw;
+	width: 100%;
 	height: 90px;
 	border-top: 2px solid #161d3c;
 }
