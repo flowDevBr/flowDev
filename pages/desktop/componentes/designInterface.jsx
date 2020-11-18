@@ -6,8 +6,10 @@ class designInterface extends Component {
         return (
             <div>
                 <div style={{ marginTop: 30, marginBottom: 30 }} className="col">
-                    <div className="row" style={{width: 800, justifyContent: 'space-between'}}>
+                    <div className="row" style={{width: 850, justifyContent: 'space-between'}}>
+                    <div style={{width: 350, display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                         <RetangulosImage />
+                        </div>
                         <div style={{ marginLeft: 60, marginTop: 30 }} className="col">
                             <span className="container-paginas-titulo">Design de Interfaces</span>
                             <span className="container-paginas-texto">

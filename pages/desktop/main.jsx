@@ -16,9 +16,15 @@ class main extends Component {
                 <link rel="icon" href="/favicon.ico" />
                 <Header />
                 <PaginaInicial />
+                <div style={{marginBottom: 50, marginTop: 100}}>
                 <DesenvolvimentoWeb />
+                </div>
+                <div style={{marginBottom: 50, marginTop: 50}}>
                 <DesenvolvimentoApp />
+                </div>
+                <div style={{marginBottom: 100, marginTop: 50}}>
                 <DesignInterface />
+                </div>
                 <ContatoContainer />
                 <Footer />
             </div>
