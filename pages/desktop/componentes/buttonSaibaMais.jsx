@@ -4,7 +4,7 @@ class buttonSaibaMais extends Component {
     render() {
         return (
             <button className="botao-saiba-mais">
-                Saiba Mais
+                Sobre
             </button>
         );
     }
