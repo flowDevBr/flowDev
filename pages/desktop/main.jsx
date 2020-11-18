@@ -6,8 +6,18 @@ import Footer from './componentes/footer'
 import DesenvolvimentoApp from './componentes/desenvolvimentoApp';
 import DesignInterface from './componentes/designInterface';
 import ContatoContainer from './componentes/contatoContainer';
+import { initGA, logPageView } from '../utils/ga'
 
 class main extends Component {
+
+    componentDidMount(){
+        if (!window.GA_INITIALIZED) {
+            initGA()
+            window.GA_INITIALIZED = true
+          }
+        logPageView()
+    }
+
     render() {
         return (
 
