@@ -129,7 +129,7 @@ body {
 .container-footer {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	background-color: #0b1023;
 	width: 100%;
@@ -173,6 +173,7 @@ body {
 }
 
 .container-paginas-texto {
+	width: 350px;
 	font-weight: 500;
 	font-size: 15px;
 	line-height: 25px;
@@ -192,13 +193,24 @@ body {
 	font-size: 12px;
 	line-height: 14px;
 	color: #8c8da9;
+	border: 1px solid #0b1023;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	border-radius: 5px;
+	width: 80%;
+}
+
+.container-contato-info:hover{
+	border: 1px solid #004ff6;
+	opacity: 0.8;
 }
 
 .container-input {
 	color: white;
 	background: none;
 	width: 291px;
-	height: 36.78px;
+	padding: 15px;
 	border: 1px solid #616e96;
 	border-radius: 5px;
 }
@@ -214,6 +226,7 @@ body {
 	border-radius: 5px;
 	border: none;
 	width: 291px;
+	padding: 15px;
 	height: 123.32px;
 }
 
@@ -232,4 +245,27 @@ body {
 
 .container-botao-contato:focus {
 	outline-width: 0px;
+}
+
+.icon-container{
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.icon-container:hover{
+	background-color: #014ef6;
+	color: black !important;
+}
+
+.icon-color{
+	color: #8C8DA9;
+}
+
+.icon-container:hover .icon-color{
+	color: #0b1023;
 }
