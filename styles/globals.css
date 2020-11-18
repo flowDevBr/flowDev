@@ -233,3 +233,11 @@ body {
 .container-botao-contato:focus {
 	outline-width: 0px;
 }
+
+/*     MOBILE   MOBILE   MOBILE   MOBILE   MOBILE   MOBILE   MOBILE                  */
+
+.container-mobile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
