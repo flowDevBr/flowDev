@@ -6,16 +6,27 @@ import Footer from './componentes/footer'
 import DesenvolvimentoApp from './componentes/desenvolvimentoApp';
 import DesignInterface from './componentes/designInterface';
 import ContatoContainer from './componentes/contatoContainer';
-import { initGA, logPageView } from '../utils/ga'
+import ReactGA from 'react-ga'
 
 class main extends Component {
 
     componentDidMount(){
         if (!window.GA_INITIALIZED) {
-            initGA()
+            this.initGA()
             window.GA_INITIALIZED = true
           }
-        logPageView()
+        this.logPageView()
+    }
+
+    initGA = () => {
+        console.log('GA init')
+        ReactGA.initialize('G-6N2309Q0DD')
+      }
+
+    logPageView = () => {
+        console.log(`Logging pageview for ${window.location.pathname}`)
+        ReactGA.set({ page: window.location.pathname })
+        ReactGA.pageview(window.location.pathname)
     }
 
     render() {
