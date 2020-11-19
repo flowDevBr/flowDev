@@ -5,7 +5,7 @@ import ImageWeb from '../../desktop/images/webImage'
 class introducaoPagina extends Component {
     render() {
         return (
-            <div style={{ marginTop: 40, marginBottom: 40 }} className="col">
+            <div style={{height: '88vh', justifyContent: 'center'}} className="col">
                 <div style={{ alignItems: "center", justifyContent: "center" }} className="row">
                     <span style={{ textAlign: "center" }} className="container-paginainicial-titulo">
                         FlowDev

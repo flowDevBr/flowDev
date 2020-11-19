@@ -12,7 +12,7 @@ class footer extends Component {
                     <Logo />
                 FlowDev
                 </span>
-                <div>
+                <div className='row'>
                     <ButtonSaibaMais />
                     <ButtonLogin />
                 </div>
