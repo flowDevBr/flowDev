@@ -13,6 +13,7 @@ class main extends Component {
             <div className="container-mobile">
                 <Header />
                 <IntroducaoPagina />
+
                 <div style={{marginTop: 50, marginBottom: 50}}>
                  <DevWebMobile />
                 </div>
@@ -25,6 +26,7 @@ class main extends Component {
                 <div style={{marginBottom: 150, marginTop: 80}}>
                 <ContatoMobile />
                 </div>
+
                 <Footer />
             </div>
         );
