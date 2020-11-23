@@ -235,12 +235,16 @@ body {
 }
 
 .container-botao-contato {
+	transition: background-color 0.5s ease-out;
 	width: 163px;
 	height: 42px;
 	background: #004ff6;
 	border-radius: 7px;
 	color: white;
 	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .container-botao-contato:focus {
@@ -275,6 +279,16 @@ body {
 
 .icon-container:hover .icon-color{
 	color: #0b1023;
+}
+
+.green-bg {
+	background-color: green;
+	transition: background-color 0.3s linear;
+}
+
+.red-bg {
+	background-color: red;
+	transition: background-color 0.3s linear;
 }
 
 @media screen and (max-width: 800px) {
