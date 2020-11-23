@@ -4,7 +4,6 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import EmailIcon from '@material-ui/icons/Email';
 import PhoneIcon from '@material-ui/icons/Phone';
-import RoomIcon from '@material-ui/icons/Room';
 
 class contatoMobile extends Component {
     render() {
