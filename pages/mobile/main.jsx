@@ -26,9 +26,11 @@ class main extends Component {
     render() {
         return (
             <div className="container-mobile">
+
                 <Header scroll={this.scrollToContatct} />
                 <IntroducaoPagina scroll={this.scrollToMore}  />
                 <div name='more' style={{marginTop: 50, marginBottom: 50}}>
+
                  <DevWebMobile />
                 </div>
                 <div style={{marginTop: 50, marginBottom: 50}}>
@@ -42,6 +44,7 @@ class main extends Component {
                     <ContatoMobile name='contato' />
                     </div>
                 </div>
+
                 <Footer />
             </div>
         );
