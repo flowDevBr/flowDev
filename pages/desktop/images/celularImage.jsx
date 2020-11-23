@@ -2,7 +2,7 @@ import * as React from "react"
 
 function SvgComponent(props) {
     return (
-        <svg width={150} height={262} viewBox="0 0 150 262" fill="none" {...props}>
+        <svg width={200} height={349.33} viewBox="0 0 150 262" fill="none" {...props}>
             <rect width={150} height={262} rx={15} fill="#0C112B" />
             <rect x={9} y={8} width={133} height={246} rx={15} fill="#141B35" />
             <rect

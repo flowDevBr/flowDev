@@ -14,7 +14,7 @@ class footer extends Component {
                 </span>
                 <div className='row'>
                     <ButtonSaibaMais />
-                    <ButtonLogin />
+                   
                 </div>
                 </div>
             </div>

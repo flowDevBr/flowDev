@@ -9,12 +9,7 @@ class devAppMobile extends Component {
                     <div style={{ alignItems: "center" }} className="col">
                         <span className="container-paginas-titulo">Desenvolvimento de Apps</span>
                         <span style={{ textAlign: "center", marginTop: 10 }} className="container-paginas-texto">
-                            Our landing pagetemplate works on all<br />
-                            devices, so you only have to set it up once,<br />
-                            and get beatiful results forever. Our landing<br />
-                            pagetemplate works on all devices, so you<br />
-                            only have to set it up once, and get beatiful<br />
-                            results forever.
+                            Desenvolvemos aplicacacoes nativas de alta performace para android e ios
                         </span>
                     </div>
                 </div>
