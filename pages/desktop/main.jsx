@@ -30,22 +30,22 @@ class main extends Component {
                 <title>Flow Dev</title>
                 <link rel="icon" href="/favicon.ico" />
                 <Header scroll={this.scrollToContatct} />
-                <PaginaInicial scroll={this.scrollToMore} />
-                <div style={{marginTop: '20vh', marginBottom: '20vh'}}>
-                    <div name='more' style={{display: 'flex', justifyContent: 'center', alignItems:'center' ,height: '70vh'}}>
+                <PaginaInicial style={{ marginTop: 80 }} scroll={this.scrollToMore} />
+                <div style={{ marginTop: '20vh', marginBottom: '20vh' }}>
+                    <div name='more' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '70vh' }}>
                         <DesenvolvimentoWeb />
                     </div>
-                    <div style={{display: 'flex', justifyContent: 'center', alignItems:'center' ,height: '70vh'}}>
+                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '70vh' }}>
                         <DesenvolvimentoApp />
                     </div>
-                    <div style={{display: 'flex', justifyContent: 'center', alignItems:'center' ,height: '70vh'}}>
+                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '70vh' }}>
                         <DesignInterface />
                     </div>
                 </div>
                 <div name='contato'>
                     <ContatoContainer />
                 </div>
-                <Footer />
+                <Footer scroll={this.scrollToMore} />
             </div>
         );
     }

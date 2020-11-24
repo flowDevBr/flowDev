@@ -159,6 +159,7 @@ body {
 	border-radius: 7px;
 	border: none;
 	margin-right: 10px;
+	cursor: pointer;
 }
 
 .botao-saiba-mais:focus {
@@ -198,10 +199,9 @@ body {
 	padding-bottom: 15px;
 	padding-left: 10px;
 	border-radius: 5px;
-	width: 80%;
 }
 
-.container-contato-info:hover{
+.container-contato-info:hover {
 	border: 1px solid #004ff6;
 	opacity: 0.8;
 }
@@ -251,14 +251,13 @@ body {
 	outline-width: 0px;
 }
 
-
 .container-mobile {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.icon-container{
+.icon-container {
 	width: 70px;
 	height: 70px;
 	border-radius: 35px;
@@ -268,16 +267,16 @@ body {
 	cursor: pointer;
 }
 
-.icon-container:hover{
+.icon-container:hover {
 	background-color: #014ef6;
 	color: black !important;
 }
 
-.icon-color{
-	color: #8C8DA9;
+.icon-color {
+	color: #8c8da9;
 }
 
-.icon-container:hover .icon-color{
+.icon-container:hover .icon-color {
 	color: #0b1023;
 }
 
@@ -291,19 +290,14 @@ body {
 	transition: background-color 0.3s linear;
 }
 
-
 @media screen and (max-width: 1600px) {
-
-.container-paginainicial {
-	margin-top: 10vh;
-}
-
+	.container-paginainicial {
+		margin-top: 10vh;
+	}
 }
 
 @media screen and (max-width: 800px) {
-	.container-paginas-texto{
-		width: auto;
+	.container-paginas-texto {
 		text-align: center;
 	}
-  }
-
+}

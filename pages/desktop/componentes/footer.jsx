@@ -7,15 +7,15 @@ class footer extends Component {
     render() {
         return (
             <div className="container-footer">
-                <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', width: '95%'}}>
-                <span className="container-header-titulo">
-                    <Logo />
+                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', width: '95%' }}>
+                    <span className="container-header-titulo">
+                        <Logo />
                 FlowDev
                 </span>
-                <div className='row'>
-                    <ButtonSaibaMais />
-                   
-                </div>
+                    <div className='row'>
+                        <ButtonSaibaMais onClick={this.props.scroll} />
+
+                    </div>
                 </div>
             </div>
         );
