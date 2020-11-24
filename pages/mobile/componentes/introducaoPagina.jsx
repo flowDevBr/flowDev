@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ImageWeb from '../images/webImage'
-import * as Scroll from 'react-scroll';
 
 
 class introducaoPagina extends Component {
@@ -18,9 +17,8 @@ class introducaoPagina extends Component {
                     <span style={{ marginTop: 40 }} className="container-paginas-texto">Construimos suas ideias de ponta a ponta utilizando as melhores tecnologias do mercado e com um design moderno e elegante.<br /><br /> </span>
                 </div>
                 <div style={{ display: "flex", alignItems: "center" }} className="col">
-                    <Scroll.Link to='contato'>
-                        <button className="container-paginainicial-botao">Saiba Mais</button>
-                    </Scroll.Link>
+                    <button onClick={this.props.scroll} className="container-paginainicial-botao">Saiba Mais</button>
+
                 </div>
                 <ImageWeb style={{ marginTop: 70, marginBottom: 40, marginLeft: 25 }} />
             </div>

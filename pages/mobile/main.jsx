@@ -28,24 +28,24 @@ class main extends Component {
             <div className="container-mobile">
 
                 <Header scroll={this.scrollToContatct} />
-                <IntroducaoPagina scroll={this.scrollToMore}  />
-                <div name='more' style={{marginTop: 50, marginBottom: 50}}>
+                <IntroducaoPagina scroll={this.scrollToMore} />
+                <div name='more' style={{ marginTop: 50, marginBottom: 50 }}>
 
-                 <DevWebMobile />
+                    <DevWebMobile />
                 </div>
-                <div style={{marginTop: 50, marginBottom: 50}}>
-                <DevAppMobile />
+                <div style={{ marginTop: 50, marginBottom: 50 }}>
+                    <DevAppMobile />
                 </div>
-                <div style={{marginTop: 50, marginBottom: 50}}>
-                <DesignInterfaceMobile />
+                <div style={{ marginTop: 50, marginBottom: 50 }}>
+                    <DesignInterfaceMobile />
                 </div>
-                <div style={{marginBottom: 150, marginTop: 80}}>
+                <div style={{ marginBottom: 150, marginTop: 80 }}>
                     <div name='contato'>
-                    <ContatoMobile name='contato' />
+                        <ContatoMobile name='contato' />
                     </div>
                 </div>
 
-                <Footer />
+                <Footer scroll={this.scrollToMore} />
             </div>
         );
     }
