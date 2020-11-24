@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import RetangulosImage from '../../desktop/images/retangulosImage'
+import RetangulosImage from '../images/retangulosImage'
 
 class designInterfaceMobile extends Component {
     render() {
@@ -9,12 +9,7 @@ class designInterfaceMobile extends Component {
                     <div style={{ alignItems: "center" }} className="col">
                         <span className="container-paginas-titulo">Design de Interfaces</span>
                         <span style={{ textAlign: "center", marginTop: 10 }} className="container-paginas-texto">
-                            Our landing pagetemplate works on all<br />
-                            devices, so you only have to set it up once,<br />
-                            and get beatiful results forever. Our landing<br />
-                            pagetemplate works on all devices, so you<br />
-                            only have to set it up once, and get beatiful<br />
-                            results forever.
+                            Estudamos por completo a experiência do úsuario com a aplicação, concluindo as melhores escolhas para FlowDev, usabilidade e design para implementação.
                         </span>
                     </div>
                 </div>

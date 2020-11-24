@@ -11,7 +11,7 @@ class Header extends Component {
                     <Logo />
                     FlowDev
                     </span>
-                <ButtonContato />
+                <ButtonContato onClick={this.props.scroll} />
                 </div>
             </div>
         );

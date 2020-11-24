@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import GitHubIcon from '@material-ui/icons/GitHub';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import EmailIcon from '@material-ui/icons/Email';
 import PhoneIcon from '@material-ui/icons/Phone';
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 
 class contatoMobile extends Component {
     render() {
@@ -27,7 +27,7 @@ class contatoMobile extends Component {
                             <span style={{ marginTop: 20, textAlign: "center" }} className="container-contato-info"><EmailIcon style={{ color: "#0E5CE6", marginRight: 10 }} />email@example.com</span>
                         </div>
                         <div style={{ marginTop: 80, display: "flex", justifyContent: "space-around" }} className="row">
-                            <GitHubIcon style={{ color: "#8C8DA9" }} />
+                            <WhatsAppIcon style={{ color: "#8C8DA9" }} />
                             <InstagramIcon style={{ color: "#8C8DA9" }} />
                             <FacebookIcon style={{ color: "#8C8DA9" }} />
                         </div>

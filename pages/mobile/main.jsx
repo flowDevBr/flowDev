@@ -6,15 +6,31 @@ import DevWebMobile from './componentes/devWebMobile';
 import DevAppMobile from './componentes/devAppMobile';
 import DesignInterfaceMobile from './componentes/designInterfaceMobile';
 import ContatoMobile from './componentes/contatoMobile'
+import * as Scroll from 'react-scroll';
 
 class main extends Component {
+
+    scrollToContatct = () => {
+        Scroll.scroller.scrollTo('contato', {
+            smooth: true,
+            offset: -50
+        })
+    }
+
+    scrollToMore = () => {
+        Scroll.scroller.scrollTo('more', {
+            smooth: true
+        })
+    }
+
     render() {
         return (
             <div className="container-mobile">
-                <Header />
-                <IntroducaoPagina />
 
-                <div style={{marginTop: 50, marginBottom: 50}}>
+                <Header scroll={this.scrollToContatct} />
+                <IntroducaoPagina scroll={this.scrollToMore}  />
+                <div name='more' style={{marginTop: 50, marginBottom: 50}}>
+
                  <DevWebMobile />
                 </div>
                 <div style={{marginTop: 50, marginBottom: 50}}>
@@ -24,7 +40,9 @@ class main extends Component {
                 <DesignInterfaceMobile />
                 </div>
                 <div style={{marginBottom: 150, marginTop: 80}}>
-                <ContatoMobile />
+                    <div name='contato'>
+                    <ContatoMobile name='contato' />
+                    </div>
                 </div>
 
                 <Footer />
