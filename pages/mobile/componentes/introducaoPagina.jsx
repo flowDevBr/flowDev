@@ -15,14 +15,14 @@ class introducaoPagina extends Component {
                 </span>
                 </div>
                 <div className="row">
-                    <span style={{ marginTop: 40, marginBottom: 20 }} className="container-paginas-texto">Construimos suas ideias de ponta a ponta utilizando as melhores tecnologias do mercado e com um design moderno e elegante.<br /><br /> </span>
+                    <span style={{ marginTop: 40 }} className="container-paginas-texto">Construimos suas ideias de ponta a ponta utilizando as melhores tecnologias do mercado e com um design moderno e elegante.<br /><br /> </span>
                 </div>
                 <div style={{ display: "flex", alignItems: "center" }} className="col">
                     <Scroll.Link to='contato'>
-                        <button className="container-paginainicial-botao">Saber Mais</button>
+                        <button className="container-paginainicial-botao">Saiba Mais</button>
                     </Scroll.Link>
                 </div>
-                <ImageWeb style={{ marginTop: 40, marginBottom: 40, marginLeft: 25 }} />
+                <ImageWeb style={{ marginTop: 70, marginBottom: 40, marginLeft: 25 }} />
             </div>
         );
     }

@@ -99,7 +99,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 88vh;
+	min-height: 88vh;
 }
 
 .container-paginainicial-titulo {
@@ -199,7 +199,6 @@ body {
 	padding-bottom: 15px;
 	padding-left: 10px;
 	border-radius: 5px;
-	width: 80%;
 }
 
 .container-contato-info:hover {
@@ -289,6 +288,12 @@ body {
 .red-bg {
 	background-color: red;
 	transition: background-color 0.3s linear;
+}
+
+@media screen and (max-width: 1600px) {
+	.container-paginainicial {
+		margin-top: 10vh;
+	}
 }
 
 @media screen and (max-width: 800px) {
