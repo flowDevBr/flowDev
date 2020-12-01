@@ -68,7 +68,7 @@ class contatoContainer extends Component {
                         <span className="container-paginas-titulo">Entre em contato</span>
                         <span style={{ marginTop: 20 }} className="container-paginas-texto">Entre em contato pelo formulario ou pelas nossa redes socias.</span>
                         <span style={{ marginTop: 60, display: 'flex', flexDirection: 'row', alignItems: 'center' }} className="container-contato-info pointer"><PhoneIcon style={{ color: "#0E5CE6", marginRight: 10, fontSize: 18 }} />+55 47 9 9996 5193</span>
-                        <span style={{ marginTop: 40, display: 'flex', flexDirection: 'row', alignItems: 'center' }} className="container-contato-info pointer"><EmailIcon style={{ color: "#0E5CE6", marginRight: 10, fontSize: 18 }} />email@example.com</span>
+                        <span style={{ marginTop: 40, display: 'flex', flexDirection: 'row', alignItems: 'center' }} className="container-contato-info pointer"><EmailIcon style={{ color: "#0E5CE6", marginRight: 10, fontSize: 18 }} />contato@flow.dev.br</span>
                         <div style={{ marginRight: 40, marginTop: 100, display: "flex", width: 250, justifyContent: "space-around" }} className="row">
                             <div className='icon-container'>
                                 <a style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} href="https://api.whatsapp.com/send?phone=13322239553&text=Ol%C3%A1%20FlowDev%20gostaria%20de%20ser%20seu(a)%20cliente!" target="_blank">
