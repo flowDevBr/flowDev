@@ -103,9 +103,10 @@ body {
 }
 
 .container-paginainicial-titulo {
+	margin-top: 10px;
 	font-weight: 600;
-	font-size: 45px;
-	line-height: 68px;
+	font-size: 35px;
+	line-height: 60px;
 	color: #ffffff;
 }
 

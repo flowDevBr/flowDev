@@ -25,7 +25,7 @@ class contatoMobile extends Component {
                         <div style={{ alignItems: 'center' }} className="col">
                             <button style={{ marginTop: 40 }} className="container-botao-contato">Enviar mensagem</button>
                             <span style={{ marginTop: 60, display: 'flex', flexDirection: 'row', alignItems: 'center', marginLeft: "-40px" }} className="container-contato-info"><PhoneIcon style={{ color: "#0E5CE6", marginRight: 10 }} />+55 47 9 9996 5193</span>
-                            <span style={{ marginTop: 20, display: 'flex', flexDirection: 'row', alignItems: 'center', marginLeft: "-40px" }} className="container-contato-info"><EmailIcon style={{ color: "#0E5CE6", marginRight: 10 }} />email@example.com</span>
+                            <span style={{ marginTop: 20, display: 'flex', flexDirection: 'row', alignItems: 'center', marginLeft: "-40px" }} className="container-contato-info"><EmailIcon style={{ color: "#0E5CE6", marginRight: 10 }} />contato@flow.dev.br</span>
                         </div>
                         <div style={{ marginTop: 80, display: "flex", justifyContent: "space-around" }} className="row">
                             <a style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} href="https://api.whatsapp.com/send?phone=13322239553&text=Ol%C3%A1%20FlowDev%20gostaria%20de%20ser%20seu(a)%20cliente!" target="_blank">
