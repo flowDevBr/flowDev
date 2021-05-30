@@ -39,7 +39,7 @@ class main extends Component {
                 <div style={{ marginTop: 50, marginBottom: 50 }}>
                     <DesignInterfaceMobile />
                 </div>
-                <div style={{ marginBottom: 150, marginTop: 80 }}>
+                <div style={{ marginBottom: 80, marginTop: 80 }}>
                     <div name='contato'>
                         <ContatoMobile name='contato' />
                     </div>
